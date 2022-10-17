@@ -1,0 +1,55 @@
+body {
+    font-family: “azo-sans-web”,sans-serif;
+}
+
+.wrap {
+    width: 90vw;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.main h1{
+    margin: 23% 0%;
+    height: 200px;
+}
+.imgArea{
+	overflow:		hidden;
+    margin: 4% 0%;
+	position:		relative;	/* 相対位置指定 */
+}
+
+.imgArea .title {
+	font-size:		    70%;
+	text-align: 		left;
+	padding-top:		190px;
+    padding-left: 60px;
+	color:			#fff;
+}
+.imgArea .title {
+    width: 100%;;
+	height:			97%;
+	position:		absolute;	/* 絶対位置指定 */
+	top:			0;
+	left:			0;
+	opacity:		0;	/* マスクを表示しない */
+	background-color:	rgba(0,0,0,0.4);	/* マスクは半透明 */
+	-webkit-transition:	all 0.2s ease;
+	transition:		all 0.2s ease;
+}
+.imgArea:hover .title {
+	opacity:		1;	/* マスクを表示する */
+}
+#moreInfo h1{ 
+    height:  auto;
+    margin:  5% 0% ;
+}
+#moreInfo p{
+    margin: 5% 0% 1%;
+    font-size:		    70%;   
+}
+#moreInfo p{
+    margin: 1% 0%;
+    font-size:		    70%;   
+}
+footer.main{
+    margin: 12% 0% 3%;
+}
